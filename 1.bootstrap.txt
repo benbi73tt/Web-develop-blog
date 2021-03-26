@@ -10,3 +10,25 @@
 
 3.слайдер
     1) фото можно взять с фотостока https://pixels.com/
+
+4.Хостинг
+    1) Для начала нужно собрать npm run build
+    2) После выбираем Хостинг
+    3) Программа FileZilla
+    5)в папке build cоздаем файл .htaccess - файл доп конфигурации веб сервера и добавляем туда:
+        <IfModule mod_rewrite.c>
+
+
+                RewriteEngine On
+                RewriteBase /
+                RewriteRule ^index\.html$ - [L]
+                RewriteCond %{REQUEST_FILENAME} !-f
+                RewriteCond %{REQUEST_FILENAME} !-d
+                RewriteCond %{REQUEST_FILENAME} !-l
+                RewriteRule . /index.html [L]
+
+
+        </IfModule>
+
+    4) все файлы добавляем
+    5)https://www.youtube.com/watch?v=AG6awwCQOog&list=PLVfMKQXDAhGWamOcqqIsMAbsP6pl0vUtW&index=9

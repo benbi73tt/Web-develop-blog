@@ -30,23 +30,23 @@ export default class About extends Component {
                     <Col sm={9}>
                         <Tab.Content>
                             <Tab.Pane eventKey="first">
-                                <img src="https://artimpl.ru/upload/iblock/c58/c58844d13a89b98298096ea667b125ec.jpg"/>
+                                <img width ={900} height={500} src="https://artimpl.ru/upload/iblock/c58/c58844d13a89b98298096ea667b125ec.jpg"/>
                                 <p>Одностраничный адаптивный сайт "Bumblebee"</p>
                             </Tab.Pane>
                             <Tab.Pane eventKey="second">
-                                <img src="https://biznes-po-franshize.ru/wp-content/uploads/2017/06/depositphotos_18177429-web-design-concept.jpg"/>
+                                <img width ={800} height={500} src="https://biznes-po-franshize.ru/wp-content/uploads/2017/06/depositphotos_18177429-web-design-concept.jpg"/>
                                 <p>Одностраничный адаптивный сайт "Bumblebee"</p>
                             </Tab.Pane>
                             <Tab.Pane eventKey="third">
-                                <img src="https://up-sait.ru/wp-content/uploads/2020/01/14467646_1920.jpg"/>
+                                <img width ={800} height={600} src="https://up-sait.ru/wp-content/uploads/2020/01/14467646_1920.jpg"/>
                                 <p>Одностраничный адаптивный сайт "Bumblebee"</p>
                             </Tab.Pane>
                             <Tab.Pane eventKey="fourth">
-                                <img src="https://lk-tricolor.ru/wp-content/uploads/2020/08/razrabotka-saitov-poltava-price.jpg"/>
+                                <img width ={500} height={400} src="https://lk-tricolor.ru/wp-content/uploads/2020/08/razrabotka-saitov-poltava-price.jpg"/>
                                 <p>Одностраничный адаптивный сайт "Bumblebee"</p>
                             </Tab.Pane>
                             <Tab.Pane eventKey="fifth">
-                                <img src="https://artimpl.ru/upload/iblock/c58/c58844d13a89b98298096ea667b125ec.jpg"/>
+                                <img width ={800} height={500} src="https://artimpl.ru/upload/iblock/c58/c58844d13a89b98298096ea667b125ec.jpg"/>
                                 <p>Одностраничный адаптивный сайт "Bumblebee"</p>
                             </Tab.Pane>
                         </Tab.Content>
